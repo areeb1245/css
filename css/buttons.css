@@ -1,0 +1,25 @@
+.btn {
+  border: none;
+  padding: 12px 20px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  opacity: 0.95;
+}
+
+.btn-secondary {
+  background: var(--surface);
+  color: white;
+  border: 1px solid #334155;
+}
